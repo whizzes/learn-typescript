@@ -21,9 +21,9 @@
 
 Gain | Retention
 --- | ---
-<= 10000 | Zero
->10000 and <= 15000 | 2% over (gain -10000)
-> 150000 | 300+5% over (gain -15000)
+`<= 10000` | Zero
+`> 10000` and `<= 15000` | 2% over (gain -10000)
+`> 150000` | 300+5% over (gain -15000)
 
 10. Calculate the amount that a car must pay in a parking lot taking into account the hours and minutes of use as data. The value of the hour is $45 and if the minutes exceed 15, the amount is increased by one hour. The minimum charge is one hour.
 
